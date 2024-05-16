@@ -1,0 +1,107 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #c86b85;
+  max-width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  font-family: Montserrat;
+  margin: 120px auto;
+  max-width: 650px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1.5;
+  color: white;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 14px;
+  display: flex;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+.direction {
+  padding: 16px;
+  border: 1.5px solid black;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: black;
+}
+.generate-button {
+  margin-left: 10px;
+  background: hotpink;
+  color: white;
+  width: 130px;
+  font-size: 15px;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 24px;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+
+.placeholder {
+  font-size: 12px;
+  background-color: white;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid hotpink;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  font-family: Montserrat;
+}
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 15px;
+  background-color: #1b191e;
+  opacity: 0.8;
+  color: white;
+  font-family: Montserrat;
+}
+
+a {
+  color: hotpink;
+  font-weight: lighter;
+  font-family: Montserrat;
+}

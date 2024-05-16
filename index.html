@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <style></style>
+    <title>AI Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Navigate Globally, Explore Intelligently. 🌏 </h1>
+      <form id="travel-tips-form">
+        <input
+          type="text"
+          placeholder="Where do you want to go to next?"
+          autofocus
+          required
+          class="direction"
+          id="user-input"
+        /><input type="Submit" value="Generate" class="generate-button" />
+      </form>
+      <div class="suggestions-box hidden" id="tips"></div>
+    </div>
+      <footer>
+      This AI generator was coded with 💝 by Iman Sohail and is
+      <a href="https://github.com/imanfsx/World-Clock" target="_blank">
+        open sourced on GitHub and available on <a href="https://github.com/imanfsx/World-Clock" target="_blank"> Netlify.</a
+      >
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
