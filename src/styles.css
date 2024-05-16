@@ -58,6 +58,14 @@ form {
   cursor: pointer;
   font-family: Montserrat;
 }
+.suggestions-box {
+  font-size: 12px;
+  background-color: white;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid hotpink;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
 
 .placeholder {
   font-size: 12px;
@@ -68,6 +76,7 @@ form {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   font-family: Montserrat;
 }
+
 .hidden {
   display: none;
 }
