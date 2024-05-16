@@ -1,0 +1,2 @@
+# AI Travel Tips Generator
+ 
